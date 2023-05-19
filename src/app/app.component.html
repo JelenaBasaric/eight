@@ -17,7 +17,7 @@
             {{ server.status }}
           </span>
           <strong>{{ server.name }}</strong> \
-          {{ server.instanceType | toReverse |uppercase }} \
+          {{ server.instanceType | toReverse| uppercase }} \
           {{ server.started | date:'fullDate' | uppercase }}
         </li>
       </ul>
