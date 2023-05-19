@@ -6,7 +6,8 @@ export class reverseStringPipe implements PipeTransform{
   
     transform(value: any) {
         //return value.reverseString();
-              return value.split(' ').reverse().join(' ');
+           const resultArray= value.split(' ').reverse().join(' ');
+           return resultArray;
       }
     
 }
